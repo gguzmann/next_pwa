@@ -1,4 +1,4 @@
-import VideoPlayer from "./VideoPlayer";
+
 
 export default function Nabvar() {
     return (

@@ -27,7 +27,7 @@ export default function VideoPlayer({ title, video }: { title: string, video: st
                         </button>
                     </div>
                     <video className="z[1090] w-full lg:w-1/2 object-cover m-5" style={{ aspectRatio: '450/300' }} controls>
-                        <source src="/videso.mp4" />
+                        <source src="/video.mp4" />
                     </video>
                 </div >
             }
