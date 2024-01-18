@@ -15,7 +15,7 @@ export default function VideoPlayer({ title, video }: { title: string, video: st
                 className="w-full h-48 object-cover" width="350" height="200" style={{ aspectRatio: '350/200', objectFit: 'cover' }} />
             {
                 open &&
-                <div className={`transition-opacity duration-500 ease-out opacity-0 hover:opacity-100 w-full min-h-screen bg-opacity-60 bg-black flex fixed justify-center items-center top-0 left-0 text-white`} onClick={handleClose}>
+                <div className={`w-full min-h-screen bg-opacity-60 bg-black flex fixed justify-center items-center top-0 left-0 text-white`} onClick={handleClose}>
                     <div className="w-full flex justify-between fixed top-0 right-0">
                         <div></div>
                         {title}
